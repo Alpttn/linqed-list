@@ -39,6 +39,7 @@ namespace Linqed_list
                 Console.WriteLine(num);
             }
 
+            Console.WriteLine("----student names alphabetically-----");
 
             // Order these student names alphabetically, in descending order (Z to A)
             List<string> names = new List<string>()
@@ -50,9 +51,18 @@ namespace Linqed_list
                 "Francisco", "Tre"
             };
 
-            List<string> descend = 
+            List<string> descendingNames  = names.OrderByDescending(name => name).ToList();
 
-            Console.WriteLine("----student names alphabetically-----");
+            foreach (string name in descendingNames)
+            {
+                Console.WriteLine(name);
+            }
+            //other way to write
+            // IEnumerable<Product> inexpensive = from product in shoppingCart
+            // where product.Price < 100.00
+            // orderby product.Price descending
+            // select product;
+
 
 
 
