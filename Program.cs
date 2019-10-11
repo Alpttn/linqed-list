@@ -51,7 +51,7 @@ namespace Linqed_list
                 "Francisco", "Tre"
             };
 
-            List<string> descendingNames = names.OrderByDescending(name => name).ToList();
+            List<string> descendingNames = names.OrderByDescending(name => name).ToList(); //specify the identity function (x => x you compare to itself
 
             foreach (string name in descendingNames)
             {
@@ -78,7 +78,18 @@ namespace Linqed_list
                 Console.WriteLine(num);
             }
 
+            Console.WriteLine("----how many nums in this list?-----");
 
+            // Output how many numbers are in this list
+            List<int> bunchOfNumbers = new List<int>()
+            {
+                15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+            };
+
+            int numberCount = bunchOfNumbers.Count();
+            Console.WriteLine(numberCount);
+
+            
 
 
 
