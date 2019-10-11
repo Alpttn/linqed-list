@@ -29,13 +29,30 @@ namespace Linqed_list
                 15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
             };
 
-            List<int> fourSixMultiples = numbers.Where(num => num % 4 == 0 || num % 6 ==0).ToList(); //didn't work without the ToList()
+            List<int> fourSixMultiples = numbers.Where(num => num % 4 == 0 || num % 6 == 0).ToList(); //didn't work without the ToList()
             // var result = list.Where(i => i%2 == 0);
+
+            Console.WriteLine("----multiples of 4 & 6-----");
 
             foreach (int num in fourSixMultiples)
             {
-              Console.WriteLine(num);  
+                Console.WriteLine(num);
             }
+
+
+            // Order these student names alphabetically, in descending order (Z to A)
+            List<string> names = new List<string>()
+            {
+                "Heather", "James", "Xavier", "Michelle", "Brian", "Nina",
+                "Kathleen", "Sophia", "Amir", "Douglas", "Zarley", "Beatrice",
+                "Theodora", "William", "Svetlana", "Charisse", "Yolanda",
+                "Gregorio", "Jean-Paul", "Evangelina", "Viktor", "Jacqueline",
+                "Francisco", "Tre"
+            };
+
+            List<string> descend = 
+
+            Console.WriteLine("----student names alphabetically-----");
 
 
 
