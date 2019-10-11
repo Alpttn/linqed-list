@@ -1,0 +1,11 @@
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\bin\Debug\netcoreapp3.0\Linqed-list.exe
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\bin\Debug\netcoreapp3.0\Linqed-list.deps.json
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\bin\Debug\netcoreapp3.0\Linqed-list.runtimeconfig.json
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\bin\Debug\netcoreapp3.0\Linqed-list.runtimeconfig.dev.json
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\bin\Debug\netcoreapp3.0\Linqed-list.dll
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\bin\Debug\netcoreapp3.0\Linqed-list.pdb
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\obj\Debug\netcoreapp3.0\Linqed-list.csprojAssemblyReference.cache
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\obj\Debug\netcoreapp3.0\Linqed-list.AssemblyInfoInputs.cache
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\obj\Debug\netcoreapp3.0\Linqed-list.AssemblyInfo.cs
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\obj\Debug\netcoreapp3.0\Linqed-list.dll
+C:\Users\allis\workspace\CSharp\book1\exercises\Linqed-list\obj\Debug\netcoreapp3.0\Linqed-list.pdb
