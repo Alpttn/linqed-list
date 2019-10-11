@@ -51,7 +51,7 @@ namespace Linqed_list
                 "Francisco", "Tre"
             };
 
-            List<string> descendingNames  = names.OrderByDescending(name => name).ToList();
+            List<string> descendingNames = names.OrderByDescending(name => name).ToList();
 
             foreach (string name in descendingNames)
             {
@@ -63,6 +63,20 @@ namespace Linqed_list
             // orderby product.Price descending
             // select product;
 
+            Console.WriteLine("----numbers in ascending order-----");
+
+            // Build a collection of these numbers sorted in ascending order
+            List<int> numbersToOrder = new List<int>()
+            {
+                15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+            };
+
+            List<int> ascendingNumbers = numbersToOrder.OrderBy(n => n).ToList(); //default is ascending
+
+            foreach (int num in ascendingNumbers)
+            {
+                Console.WriteLine(num);
+            }
 
 
 
